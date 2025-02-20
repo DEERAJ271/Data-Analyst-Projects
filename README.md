@@ -45,7 +45,7 @@ This repository showcases my work in **data analytics** through a collection of 
 ---
 
 ## Connect With Me
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
-- **GitHub:** [Your GitHub Profile](https://github.com/your-username)
+- **LinkedIn:** ([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/deeraj-natarajan-a3077a18b/?originalSubdomain=in))
+- **GitHub:**(https://github.com/DEERAJ271))
 
 Feel free to explore, provide feedback, or collaborate on projects!

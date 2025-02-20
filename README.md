@@ -1,6 +1,7 @@
 # Data Analytics Projects Portfolio
 
-![Data Analytics Projects Portfolio](./Screenshot 2025-02-20 111556.png)
+![Data Analytics Projects Portfolio](./![Screenshot 2025-02-20 111556](https://github.com/user-attachments/assets/79e7c9a0-3e98-45a4-aaee-bbb44bbc01f1)
+)
 
 ## About This Repository
 This repository showcases my work in **data analytics** through a collection of projects. Each project highlights skills in data cleaning, analysis, and visualization, using tools and technologies such as **Python**, **SQL**, **Excel**, and **Power BI**.

@@ -1,6 +1,7 @@
 # Data Analytics Projects Portfolio
 
-![Data Analytics Projects Portfolio](./![Screenshot 2025-02-20 111556](https://github.com/user-attachments/assets/79e7c9a0-3e98-45a4-aaee-bbb44bbc01f1)
+![Data Analytics Projects Portfolio](./![![Screenshot 2025-02-20 120011](https://github.com/user-attachments/assets/8d98517c-c389-4270-a2a5-05a051b2fd3e)
+)
 )
 
 ## About This Repository

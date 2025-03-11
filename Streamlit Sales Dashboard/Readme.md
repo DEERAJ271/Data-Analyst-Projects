@@ -24,7 +24,11 @@ Handles:
 Stores MySQL database credentials.
 
 3️⃣ styles.css (Custom CSS Styling)
-Enhances the appearance of the dashboard with 3D graph effects.
+Enhances the appearance of the dashboard with 3D graph effects.![WhatsApp Image 2025-03-11 at 3 57 50 PM](https://github.com/user-attachments/assets/04e2ec4e-b3e8-41b3-a15f-7fc9387700df)
+![WhatsApp Image 2025-03-11 at 3 57 46 PM](https://github.com/user-attachments/assets/51d6e338-b42a-47a0-aead-cfbde5e49e5e)
+
+
+
 
 🛠 Technologies Used
 Technology	Purpose

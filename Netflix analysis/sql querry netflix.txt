@@ -1,0 +1,58 @@
+USE   sales_db;
+CREATE TABLE netflix (
+    show_id VARCHAR(20) PRIMARY KEY,
+    type VARCHAR(20),
+    title TEXT,
+    director TEXT,
+    cast TEXT,
+    country TEXT,
+    date_added DATE,
+    release_year INT,
+    rating VARCHAR(20),
+    duration VARCHAR(10),
+    listed_in TEXT,
+    description TEXT
+);
+ALTER TABLE netflix MODIFY COLUMN release_year TEXT;
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/netflix_titles.csv'
+INTO TABLE netflix
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'   -- Try Unix-style line endings first
+IGNORE 1 ROWS;
+
+
+
+-- Count of Movies vs TV Shows
+SELECT type, COUNT(*) AS count
+FROM netflix
+GROUP BY type;
+
+-- Top 5 countries with most content
+SELECT country, COUNT(*) AS content_count
+FROM netflix
+GROUP BY country
+ORDER BY content_count DESC
+LIMIT 5;
+
+-- Year-wise Netflix content added
+SELECT EXTRACT(YEAR FROM date_added) AS year, COUNT(*) AS total_content
+FROM netflix
+GROUP BY year
+ORDER BY year DESC;
+
+SELECT type, COUNT(*) AS total_count
+FROM netflix
+GROUP BY type;
+
+SELECT rating, COUNT(*) AS count
+FROM netflix
+GROUP BY rating
+ORDER BY count DESC
+LIMIT 5;
+
+SELECT listed_in, COUNT(*) AS genre_count
+FROM netflix
+GROUP BY listed_in
+ORDER BY genre_count DESC
+LIMIT 10;

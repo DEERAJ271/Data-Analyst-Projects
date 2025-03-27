@@ -1,0 +1,80 @@
+create database new1;
+use new1;
+CREATE TABLE model_predictions (
+    model_name TEXT,
+    prediction_date DATE,
+    actual_value FLOAT,
+    predicted_value FLOAT,
+    prediction_latency FLOAT,
+    confidence_score FLOAT,
+    status TEXT
+);
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/HousingData_ModelMonitoring_FixedDates.csv'
+INTO TABLE model_predictions
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+SELECT 
+  prediction_date,
+  AVG(ABS(predicted_value - actual_value)) AS MAE,
+  SQRT(AVG(POWER(predicted_value - actual_value, 2))) AS RMSE
+FROM model_predictions
+GROUP BY prediction_date
+ORDER BY prediction_date;
+
+SELECT 
+  prediction_date,
+  COUNT(*) AS total_predictions,
+  SUM(CASE WHEN status = 'Failure' THEN 1 ELSE 0 END) AS failures,
+  ROUND(100.0 * SUM(CASE WHEN status = 'Failure' THEN 1 ELSE 0 END) / COUNT(*), 2) AS failure_rate
+FROM model_predictions
+GROUP BY prediction_date
+ORDER BY prediction_date;
+
+SELECT 
+  prediction_date,
+  AVG(prediction_latency) AS avg_latency,
+  MAX(prediction_latency) AS max_latency
+FROM model_predictions
+GROUP BY prediction_date;
+create database new1;
+use new1;
+CREATE TABLE model_predictions (
+    model_name TEXT,
+    prediction_date DATE,
+    actual_value FLOAT,
+    predicted_value FLOAT,
+    prediction_latency FLOAT,
+    confidence_score FLOAT,
+    status TEXT
+);
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/HousingData_ModelMonitoring_FixedDates.csv'
+INTO TABLE model_predictions
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+SELECT 
+  prediction_date,
+  AVG(ABS(predicted_value - actual_value)) AS MAE,
+  SQRT(AVG(POWER(predicted_value - actual_value, 2))) AS RMSE
+FROM model_predictions
+GROUP BY prediction_date
+ORDER BY prediction_date;
+
+SELECT 
+  prediction_date,
+  COUNT(*) AS total_predictions,
+  SUM(CASE WHEN status = 'Failure' THEN 1 ELSE 0 END) AS failures,
+  ROUND(100.0 * SUM(CASE WHEN status = 'Failure' THEN 1 ELSE 0 END) / COUNT(*), 2) AS failure_rate
+FROM model_predictions
+GROUP BY prediction_date
+ORDER BY prediction_date;
+
+SELECT 
+  prediction_date,
+  AVG(prediction_latency) AS avg_latency,
+  MAX(prediction_latency) AS max_latency
+FROM model_predictions
+GROUP BY prediction_date;

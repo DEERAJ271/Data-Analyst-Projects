@@ -1,0 +1,56 @@
+# 🏆 Premier League Dashboard (2000–2025)
+
+An interactive data visualization dashboard built with **Looker Studio** that analyzes **English Premier League** match data from **2000 to 2025**. The dashboard is designed to offer performance insights using metrics like goals, expected goals (xG), team-wise wins, and match outcomes.
+
+---
+
+## 📊 Dashboard Highlights
+
+- ⚽ **Total Goals & Matches Played**
+- 📈 **Avg. Goals per Game** (Custom Calculated Field)
+- 🥇 **Top 10 Most Successful Teams** by Win Count
+- 📅 **Interactive Filters** (Season, Team, Match Type)
+- 📋 **Match-by-Match Table** with xG & Possession Stats
+- 📌 **Pie Chart** of Match Outcome Distribution (Home Win / Away Win / Draw)
+- 🧮 **Scatter Plot** – xG vs Actual Goals
+- 🔥 Clean design using Premier League theme colors
+
+---
+
+## 🧰 Tech Stack
+
+- **Looker Studio** – for visualizations
+- **Google Sheets** – as live data source
+- **Custom Fields & Blending** – to create calculated metrics like `Avg_Goals_Per_Game`, `Match Outcome`, `Score`, `Possession (H/A)`, etc.
+
+---
+
+## 📁 Features Implemented
+
+| Feature                  | Status |
+|--------------------------|--------|
+| Scorecards (KPIs)        | ✅     |
+| Pie & Bar Charts         | ✅     |
+| Scatter Plot (xG)        | ✅     |
+| Pivot Table (Team vs Team)| 🔜     |
+| Conditional Formatting   | ✅     |
+| Responsive Filters       | ✅     |
+
+---
+
+## 📎 How to Use
+
+1. Open the dashboard in Looker Studio (link shared in repo or DM).
+2. Use dropdown filters to explore data by season or team.
+3. Hover on charts for tooltips and trends.
+
+---
+
+## 📬 Connect
+
+Feel free to connect with me on [LinkedIn](https://linkedin.com/in/deeraj-natarajan) or raise issues/suggestions here.
+
+---
+
+## ⭐️ If you like this project, please star the repo and share it with other football & data fans!
+

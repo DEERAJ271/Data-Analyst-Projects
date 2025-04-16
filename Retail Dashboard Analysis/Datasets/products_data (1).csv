@@ -1,0 +1,101 @@
+ProductID,ProductName,Category,Supplier,UnitPrice,Stock
+100,Product_100,Clothing,"Wolf, Rodriguez and Green",61.73,165
+101,Product_101,Clothing,"Peck, Richard and Johnson",472.57,96
+102,Product_102,Clothing,"Matthews, Miranda and Thornton",332.76,195
+103,Product_103,Clothing,"Anderson, Crane and Mclean",56.86,56
+104,Product_104,Electronics,"Miller, Cook and Schmidt",231.47,85
+105,Product_105,Electronics,Wright-Williams,372.33,137
+106,Product_106,Clothing,Wu-Ryan,306.97,177
+107,Product_107,Furniture,Jones and Sons,403.76,145
+108,Product_108,Clothing,Morris LLC,472.48,143
+109,Product_109,Clothing,Williams PLC,497.36,91
+110,Product_110,Furniture,"Clarke, Johnson and Miller",410.22,161
+111,Product_111,Electronics,King-Anthony,491.12,29
+112,Product_112,Groceries,Craig Inc,83.86,134
+113,Product_113,Furniture,"Romero, White and Moore",449.34,44
+114,Product_114,Groceries,Garcia-Johnson,178.0,171
+115,Product_115,Furniture,"Smith, Maddox and Kerr",480.33,35
+116,Product_116,Furniture,"Guerrero, Dillon and Ward",305.73,19
+117,Product_117,Furniture,"Ellis, Roach and Martinez",397.87,53
+118,Product_118,Clothing,Scott LLC,166.2,187
+119,Product_119,Groceries,Moon-Gonzalez,172.35,50
+120,Product_120,Furniture,Williams-Hess,135.76,162
+121,Product_121,Electronics,Bond-Turner,229.5,187
+122,Product_122,Electronics,Estrada and Sons,160.57,109
+123,Product_123,Electronics,Rowe-Moore,61.82,174
+124,Product_124,Clothing,Thomas-Butler,149.54,89
+125,Product_125,Furniture,"Shaffer, Jones and Doyle",291.14,195
+126,Product_126,Groceries,Reyes-Garner,316.3,12
+127,Product_127,Clothing,Vasquez and Sons,77.68,40
+128,Product_128,Clothing,Collins-Jones,58.25,145
+129,Product_129,Furniture,"Baker, Smith and Stone",27.05,132
+130,Product_130,Clothing,Baker Inc,332.79,144
+131,Product_131,Electronics,Mendez-Jackson,138.2,117
+132,Product_132,Electronics,Stewart Group,56.76,178
+133,Product_133,Electronics,Dudley Ltd,26.26,27
+134,Product_134,Groceries,Hale and Sons,90.96,186
+135,Product_135,Electronics,"Gutierrez, Johns and Harris",272.58,75
+136,Product_136,Electronics,Johnson PLC,364.66,172
+137,Product_137,Groceries,Burgess-Johnson,486.37,170
+138,Product_138,Electronics,Howard-Robinson,218.23,165
+139,Product_139,Clothing,Haynes LLC,80.99,79
+140,Product_140,Clothing,"Smith, King and Werner",138.9,63
+141,Product_141,Electronics,Lopez Group,187.64,182
+142,Product_142,Groceries,Kemp-Bishop,147.56,120
+143,Product_143,Clothing,Romero and Sons,369.5,135
+144,Product_144,Electronics,"Hensley, Bailey and Bishop",358.43,41
+145,Product_145,Furniture,"Taylor, Holmes and Robinson",211.9,62
+146,Product_146,Groceries,Duarte-Baker,284.52,39
+147,Product_147,Groceries,"Odom, Smith and Lee",67.07,67
+148,Product_148,Clothing,"Morris, Roberts and Miller",111.05,135
+149,Product_149,Clothing,"Sweeney, Pittman and Gilbert",166.32,17
+150,Product_150,Clothing,"Vasquez, Black and Hernandez",71.49,29
+151,Product_151,Clothing,Ayers-Garcia,268.75,101
+152,Product_152,Furniture,Miller and Sons,416.68,134
+153,Product_153,Groceries,Banks-Carter,476.66,89
+154,Product_154,Furniture,Lee-Miller,203.84,64
+155,Product_155,Electronics,"Norman, Ward and Haley",61.7,128
+156,Product_156,Groceries,Yang-Mcbride,151.1,136
+157,Product_157,Clothing,Robinson LLC,266.7,170
+158,Product_158,Groceries,Richardson and Sons,474.65,143
+159,Product_159,Clothing,Smith Inc,224.06,139
+160,Product_160,Furniture,"Tucker, Crawford and Crawford",360.52,23
+161,Product_161,Electronics,"Houston, Hunter and Robbins",335.64,63
+162,Product_162,Furniture,Garcia-Green,327.53,177
+163,Product_163,Clothing,Peterson and Sons,313.31,117
+164,Product_164,Furniture,Willis Inc,234.57,129
+165,Product_165,Electronics,Williams Group,233.93,174
+166,Product_166,Furniture,Webster LLC,206.57,12
+167,Product_167,Groceries,Schultz-Russo,234.09,98
+168,Product_168,Furniture,Thompson-Barnes,442.83,95
+169,Product_169,Groceries,"Carr, Martin and Waller",115.14,106
+170,Product_170,Furniture,Jacobs-Johnson,262.78,131
+171,Product_171,Electronics,Powell-Cummings,217.34,79
+172,Product_172,Furniture,Patterson Ltd,349.02,170
+173,Product_173,Groceries,"Hudson, Williamson and Ingram",33.31,170
+174,Product_174,Electronics,Contreras-Rocha,67.56,109
+175,Product_175,Furniture,Caldwell-Holmes,94.99,185
+176,Product_176,Clothing,Walsh LLC,260.25,157
+177,Product_177,Groceries,Bennett LLC,39.68,92
+178,Product_178,Groceries,"Fletcher, Barker and Stephens",418.05,44
+179,Product_179,Furniture,Campbell and Sons,224.54,96
+180,Product_180,Groceries,Keith-Johnson,303.97,200
+181,Product_181,Electronics,Guzman-Gardner,120.24,113
+182,Product_182,Furniture,Weber-Woods,216.82,18
+183,Product_183,Electronics,Clark-Jackson,445.55,178
+184,Product_184,Furniture,Garcia Ltd,300.53,103
+185,Product_185,Groceries,Walker-Conway,474.11,40
+186,Product_186,Furniture,"Munoz, Sanders and Burke",493.24,72
+187,Product_187,Furniture,"Martin, Crawford and Murphy",84.29,133
+188,Product_188,Furniture,Thompson-Gallagher,411.29,106
+189,Product_189,Furniture,Lyons LLC,353.57,86
+190,Product_190,Electronics,"Small, Cabrera and Byrd",360.06,169
+191,Product_191,Groceries,Ross Ltd,31.35,87
+192,Product_192,Furniture,Myers-Turner,242.43,189
+193,Product_193,Clothing,Young PLC,386.98,63
+194,Product_194,Clothing,Stone-Randolph,452.23,122
+195,Product_195,Furniture,Floyd-Robertson,294.46,130
+196,Product_196,Electronics,"Blevins, Gomez and Roy",319.23,83
+197,Product_197,Furniture,Ruiz Group,24.52,176
+198,Product_198,Furniture,"Stein, Ramirez and Mckay",18.78,165
+199,Product_199,Groceries,Nixon-Boyd,169.05,17

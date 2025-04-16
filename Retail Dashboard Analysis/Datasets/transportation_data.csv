@@ -1,0 +1,11 @@
+Warehouse,StoreID,DistanceKM,DeliveryCostPerKM,MaxCapacity
+Warehouse_3,1,450.4,3.73,146
+Warehouse_3,2,363.52,3.76,579
+Warehouse_3,3,459.98,3.4,671
+Warehouse_2,4,343.65,6.85,898
+Warehouse_3,5,491.48,4.83,858
+Warehouse_3,6,6.43,2.62,987
+Warehouse_3,7,418.43,7.37,641
+Warehouse_3,8,289.64,7.07,431
+Warehouse_3,9,423.34,2.92,181
+Warehouse_2,10,480.23,7.98,178
